@@ -1,0 +1,47 @@
+<html>
+<head>
+<title>Text Tool</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="top">
+    <h2>Text Analyzer Task</h2>
+</div>
+
+<div class="box">
+
+    <h3>Write Your Text</h3>
+
+    <textarea id="txt" placeholder="type or paste here..." rows="8"></textarea>
+
+    <br><br>
+
+    <button onclick="analyzeText()">Click to Analyze</button>
+
+    <br><br>
+
+    <div id="show" style="display:none;">
+
+        <p>Characters: <span id="c">0</span></p>
+
+        <p>Words: <span id="w">0</span></p>
+
+        <p>Reverse Text:</p>
+
+        <div id="rev"></div>
+
+    </div>
+
+</div>
+
+<div class="bottom">
+    <p>Made by Samia Jannat</p>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
